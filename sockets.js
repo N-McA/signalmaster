@@ -140,6 +140,7 @@ module.exports = function (server, config) {
         return io.sockets.clients(name).length;
     }
 
+    return io
 };
 
 function safeCb(cb) {
